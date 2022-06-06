@@ -1442,6 +1442,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "rustplayground"
+version = "0.1.0"
+dependencies = [
+ "actix-rt",
+ "actix-web",
+ "chrono",
+ "config",
+ "reqwest",
+ "serde 1.0.130",
+ "sqlx",
+ "tokio",
+ "uuid",
+]
+
+[[package]]
 name = "ryu"
 version = "1.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1965,9 +1980,9 @@ checksum = "cda74da7e1a664f795bb1f8a87ec406fb89a02522cf6e50620d016add6dbbf5c"
 
 [[package]]
 name = "tokio"
-version = "1.13.0"
+version = "1.13.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "588b2d10a336da58d877567cd8fb8a14b463e2104910f8132cd054b4b96e29ee"
+checksum = "52963f91310c08d91cb7bff5786dfc8b79642ab839e188187e92105dbfb9d2c8"
 dependencies = [
  "autocfg",
  "bytes",
@@ -2312,21 +2327,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "56c1936c4cc7a1c9ab21a1ebb602eb942ba868cbd44a99cb7cdc5892335e1c85"
 dependencies = [
  "linked-hash-map",
-]
-
-[[package]]
-name = "zero2prod"
-version = "0.1.0"
-dependencies = [
- "actix-rt",
- "actix-web",
- "chrono",
- "config",
- "reqwest",
- "serde 1.0.130",
- "sqlx",
- "tokio",
- "uuid",
 ]
 
 [[package]]
